@@ -5,7 +5,7 @@ A reinforcement-learning trading agent for a single stock (AAPL). A **PPO** agen
 **Questions:** Can an RL agent learn a trading strategy that holds up against buy-and-hold? Does adding news sentiment help?
 
 Two-person project (Kyle Mollard, Donald Chan) · CMPT 419 Special Topics in AI: Fintech and AI in Finance, Simon Fraser University · Fall 2025
-I built most of the pipeline and experiments in the notebook: data prep, sentiment scoring, the custom reward, training, and evaluation.
+I carried the build: data prep, FinBERT sentiment scoring, the custom log-return reward, PPO training, and evaluation. My teammate contributed ideas and feedback on direction.
 
 **Stack:** Python · Stable-Baselines3 (PPO) · FinRL · Gymnasium · PyTorch · Hugging Face Transformers (FinBERT) · pandas · yfinance
 
